@@ -1,4 +1,4 @@
-# Connecting MKR1000 1010 WiFi to Azure IoT Hub with DHT22
+# Connecting MKR1000 WiFi to Azure IoT Hub with DHT22
 
 ## Arduino
 use the above .ino file as base line to send messages. Create arduino_secrets.h file to store the links to your enviornment. 
