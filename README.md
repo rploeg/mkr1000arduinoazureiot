@@ -10,5 +10,9 @@ Open the terminal screen and click Y on the first question. After that you need 
 ## Azure IoT Hub
 Create a new IoT device in the IoT Hub, when creating the new devive don't use the SAS authentication, but the self signed certificate authentication. Paste the SHA key from the previous step into the primary and secondary key.
 
-## Run
+## Connect & Run
+Connect the DHT22 sensor to the board:
+
+![wired-breadboard-with-mkr1000-and-dht22-sensor](https://user-images.githubusercontent.com/49752333/159519362-bf53bcde-f2a9-4789-972e-a495ca43c22a.gif)
+
 Run the code on Arduino with the device ID you have created in the secrets file. Check with your serial port if the data is send to the IoT Hub. If yes, check with Azure IoT Explorer if the data is received in the IoT Hub.
