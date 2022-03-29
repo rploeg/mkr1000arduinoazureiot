@@ -1,7 +1,7 @@
 # Connecting MKR1000 WiFi to Azure IoT Hub with DHT22
 
 ## Arduino
-use the above .ino file as base line to send messages. Create arduino_secrets.h file to store the links to your enviornment. 
+use the above .ino file as baseline to send messages. Create arduino_secrets.h file to store the links to your enviornment. 
 
 The authenitcation against the Azure IoT Hub goes with a self signed certificate. We need to create this via Arduino for every MKR1000 device Open the sketch in the Arduino IDE using the File -> Examples -> ArduinoECCX08 -> Tools -> ECCX08SelfSignedCert. Click the "Upload".
 
